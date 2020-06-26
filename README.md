@@ -28,15 +28,15 @@ viewing experience.
 Screenshots
 -----------
 
-![Image of Matt Parker](#screenshots/matt_parker.png)
+![Image of Matt Parker](/screenshots/matt_parker.png)
 
-![Spreadsheet Zoom 400%](#screenshots/zoom_400.png)
+![Spreadsheet Zoom 400%](/screenshots/zoom_400.png)
 
-![Spreadsheet Zoom 200%](#screenshots/zoom_200.png)
+![Spreadsheet Zoom 200%](/screenshots/zoom_200.png)
 
-![Spreadsheet Zoom 100%](#screenshots/zoom_100.png)
+![Spreadsheet Zoom 100%](/screenshots/zoom_100.png)
 
-![Spreadsheet Zoom 20%](#screenshots/zoom_20.png)
+![Spreadsheet Zoom 20%](/screenshots/zoom_20.png)
 
 Notes
 -----
