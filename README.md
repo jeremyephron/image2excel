@@ -69,4 +69,5 @@ Acknowledgements
 
 Thanks to [Matt Parker](http://standupmaths.com/) for great content and the 
 spreadsheet idea. He has an [online converter](http://www.think-maths.co.uk/spreadsheet),
-but this script produces a higher quality spreadsheet.
+but this script produces a higher quality spreadsheet and supports larger 
+image sizes.
