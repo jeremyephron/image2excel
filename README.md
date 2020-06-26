@@ -29,18 +29,23 @@ Screenshots
 -----------
 
 An image of Matt Parker:
+
 ![Image of Matt Parker](/screenshots/matt_parker.png)
 
 Zoom 400%:
+
 ![Spreadsheet Zoom 400%](/screenshots/zoom_400.png)
 
 Zoom 200%:
+
 ![Spreadsheet Zoom 200%](/screenshots/zoom_200.png)
 
 Zoom 100%:
+
 ![Spreadsheet Zoom 100%](/screenshots/zoom_100.png)
 
 Zoom 20%:
+
 ![Spreadsheet Zoom 20%](/screenshots/zoom_20.png)
 
 Notes
