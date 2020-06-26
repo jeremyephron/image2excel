@@ -9,8 +9,8 @@ Installation
 
 - Requires at least version Python3.6.
 
-- Clone this repository: `git clone https://github.com/jeremyephron/image2excel`,
-  or individually download the `image2excel.py` file and `requirements.txt`.
+- Download the `image2excel.py` file and `requirements.txt`. You can also
+  clone this repository (but you don't need any other files).
 
 - Install requirements: `python3 -m pip install -r requirements.txt`. This 
   script requires `opencv-python` and `openpyxl`.
@@ -28,14 +28,19 @@ viewing experience.
 Screenshots
 -----------
 
+An image of Matt Parker:
 ![Image of Matt Parker](/screenshots/matt_parker.png)
 
+Zoom 400%:
 ![Spreadsheet Zoom 400%](/screenshots/zoom_400.png)
 
+Zoom 200%:
 ![Spreadsheet Zoom 200%](/screenshots/zoom_200.png)
 
+Zoom 100%:
 ![Spreadsheet Zoom 100%](/screenshots/zoom_100.png)
 
+Zoom 20%:
 ![Spreadsheet Zoom 20%](/screenshots/zoom_20.png)
 
 Notes
@@ -56,4 +61,3 @@ Acknowledgements
 Thanks to [Matt Parker](http://standupmaths.com/) for great content and the 
 spreadsheet idea. He has an [online converter](http://www.think-maths.co.uk/spreadsheet),
 but this script produces a higher quality spreadsheet.
-
