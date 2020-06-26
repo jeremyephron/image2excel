@@ -50,7 +50,7 @@ Zoom 20%:
 
 Spreadsheet inception:
 
-![Spreadsheet of Spreadsheet](/screenshots/spreadsheet_inception)
+![Spreadsheet of Spreadsheet](/screenshots/spreadsheet_inception.png)
 
 Notes
 -----
