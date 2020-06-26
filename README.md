@@ -48,6 +48,10 @@ Zoom 20%:
 
 ![Spreadsheet Zoom 20%](/screenshots/zoom_20.png)
 
+Spreadsheet inception:
+
+![Spreadsheet of Spreadsheet](/screenshots/spreadsheet_inception)
+
 Notes
 -----
 
