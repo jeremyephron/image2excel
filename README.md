@@ -4,8 +4,20 @@ Image2Excel
 Image2Excel is a Python script that converts your image into an Excel 
 spreadsheet.
 
+Installation
+------------
+
+- Requires at least version Python3.6.
+
+- Clone this repository: `git clone https://github.com/jeremyephron/image2excel`,
+  or individually download the `image2excel.py` file and `requirements.txt`.
+
+- Install requirements: `python3 -m pip install -r requirements.txt`. This 
+  script requires `opencv-python` and `openpyxl`.
+
 Usage
 -----
+
 Run `./image2excel.py image [-o OUTPUT]` where `image` is the path to your 
 image and `OUTPUT` is your desired output file path (a xlsx file). If output 
 is unspecified, the output file will take the name of your image.
