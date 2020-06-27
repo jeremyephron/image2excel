@@ -50,13 +50,14 @@ def parse_args():
 
 
 def main(image, output=None):
+
     # Load the image
     img = cv2.imread(image)
 
     if img is None:
         raise Exception(f'Failed to load image "{image}".')
 
-    # Resize the image so you can see it will fit on the screen
+    # Resize the image so it will fit on the screen
     img = bound_image_to_size(img, MAX_SIZE)
 
     # Create a new workbook
@@ -93,8 +94,7 @@ def bound_image_to_size(img, size):
         return img
 
     # Height is limiting
-    if (size[0] / max(img.shape[0], size[0]) 
-            < size[1] / max(img.shape[1], size[1])):
+    if size[0] / img.shape[0] < size[1] / img.shape[1]:
         scale = size[0] / img.shape[0]
 
         # resize takes (width, height)
@@ -112,7 +112,7 @@ def write_img_to_ws(img, ws):
 
     Args:
         img: the image array.
-        ws: the write only worksheet.
+        ws: the write-only worksheet.
 
     """
     
@@ -133,7 +133,7 @@ def write_img_to_ws(img, ws):
 
     # Add all numbers to the worksheet
     for r in range(img.shape[0]):  # rows
-        for channel in range(img.shape[2]):  # rgb channels
+        for channel in range(img.shape[2] - 1, -1, -1):  # rgb channels
             ws.append([cell(x) for x in img[r, :, channel]])
 
 
@@ -142,13 +142,13 @@ def apply_colors(ws, n_rows, n_cols):
     Apply colors to the worksheet by conditional formatting.
 
     Args:
-        ws: the write only worksheet.
+        ws: the write-only worksheet.
         n_rows: the number of rows in the worksheet.
         n_cols: the number of columns in the worksheet.
 
     """
 
-    rgb = ['0000FF', '00FF00', 'FF0000']  # red, green, and blue in hex
+    rgb = ['FF0000', '00FF00', '0000FF']  # red, green, and blue in hex
 
     end_col = get_col_name(n_cols)
     for r in range(1, n_rows + 1):
