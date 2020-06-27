@@ -2,7 +2,8 @@ Image2Excel
 ===========
 
 Image2Excel is a Python script that converts your image into an Excel 
-spreadsheet.
+spreadsheet (an idea due to Matt Parker, look at
+[Acknowledgments](#acknowledgement).
 
 Installation
 ------------
